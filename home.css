@@ -1,0 +1,37 @@
+nav a:hover{
+    display: flex;
+    background-color: white;
+ 
+}
+.abhishek{
+    text-align: center;
+    margin-top: 120px;
+    text-shadow: 5px 5px 5px rgb(70, 70, 70);
+
+}
+.money{
+    font-weight: bold;
+    font-size: 28px
+
+}
+.detail{
+    font-weight: bold;
+    color: #7e8594;;
+}
+.card:hover{
+    scale: 1.02;
+    transition: .3s ease-in-out;
+}
+/* body{
+    background-image: linear-gradient(to left bottom, #8b4249, #67333a, #45242a, #25161a, #000000);
+} */
+.carousel-item{
+    height: 180px;
+}
+/* .btn{
+    text-align: center;
+    height: 12px;
+} */
+img{
+    filter: brightness(10%);
+}

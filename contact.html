@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid" style="background: url(https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); height: 95vh; background-repeat: no-repeat; background-size:cover;">
+        <nav class="nav nav-pills d-flex justify-content-center">
+            <a class="nav-item nav-link mt-4" style="color: white;" href="home.html">Home</a>
+            <a class="nav-item nav-link mt-4" style="color: white;" href="car.html">Cars</a>
+            <a class="nav-item nav-link mt-4" style="color: white;" href="aboutus.html">Our Services</a>
+            <a class="nav-item nav-link mt-4" style="color: white;" href="contact.html" class="active" >Contact Us</a>
+        </nav>
+        <div>
+        <h1 class="abhishek text-light text-center">FIND YOUR PERFECT CAR!</h1></div>
+        <h1 class="d-flex justify-content-center mt-5" style="color: white;">Contact Us</h1>
+        <p class="d-flex justify-content-center mt-3" style="color: white;">If you have any questions or concerns, please feel free to contact us at our customer service line.</p>
+<div class="row ">
+  <div class="col-md-6 col-sm-6 col-6">
+    <div class="contact-form">
+      <form class="gap-10">
+          <div class="form-row ms-5">
+              <div class="form-group col-md-3 mt-2">
+                  <label for="firstName" style="color: white; width: 100px;">First Name</label>
+                  <input type="text" class="form-control input-outline-bottom" id="firstName" placeholder="First Name" style="color: white; width: 270px">
+              </div>
+              <div class="form-group col-md-3 mt-2">
+                  <label for="lastName"style="color: white;">Last Name</label>
+                  <input type="text" class="form-control input-outline-bottom" id="lastName" placeholder="Last Name" style="color: white; width: 270px">
+              </div>
+              <div class="form-group col-md-2 mt-2">
+                  <label for="phone"style="color: white; width:250px">Phone</label>
+                  <div class="d-flex gap-10">
+                      <select class="form-select" id="countryCode">
+                          <option value="+91" style="color: white;">IND(+91)</option>
+                          <option data-countryCode="IN" value="91">
+                              India (+91)
+                            </option>
+                            <option data-countryCode="DZ" value="213">
+                              Algeria (+213)
+                      
+                      
+                      <input type="tel" class="form-control input-outline-bottom ms-3 col-md-2" id="phone" placeholder="Phone Number" style="color: white; width:200px">
+                  </div>
+                  
+                  
+              </div>
+              <div class="form-group col-md-3 mt-2">
+                  <label for="email"style="color: white;">Email</label>
+                  <input type="email" class="form-control input-outline-bottom" id="email" placeholder="Email" style="color: white; width:270px">
+              </div>
+          </div>
+
+          <div class="form-group mt-2 col-md-3 ms-5">
+              <label for="message" style="color: white;">Message</label>
+              <textarea class="form-control input-outline-bottom" id="message" rows="" cols="40" placeholder="Message" style="color: white; width: 270px"></textarea>
+          </div>
+          
+
+          <button type="submit" class="btn rounded mt-3 ms-5" style="background-color: black; color: white;">Submit</button>
+
+  </div>
+</div>
+<div class="col-md-6 ">
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.1652728885833!2d77.07076567603019!3d28.594818285791483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b30bc00002d%3A0xa62ec5d90f90ca90!2sCar%20Shoppers!5e0!3m2!1sen!2sin!4v1713166417165!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+        <!-- <div class="container">
+            <div class="contact-form">
+                <form class="gap-10">
+                    <div class="form-row">
+                        <div class="form-group col-md-3 mt-2">
+                            <label for="firstName" style="color: white;">First Name</label>
+                            <input type="text" class="form-control input-outline-bottom" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-3 mt-2">
+                            <label for="lastName"style="color: white;">Last Name</label>
+                            <input type="text" class="form-control input-outline-bottom" id="lastName" placeholder="Last Name">
+                        </div>
+                        <div class="form-group col-md-2       mt-2">
+                            <label for="phone"style="color: white;">Phone</label>
+                            <div class="d-flex gap-10">
+                                <select class="form-select" id="countryCode">
+                                    <option value="+91" style="color: white;">IND(+91)</option>
+                                    <option data-countryCode="IN" value="91">
+                                        India (+91)
+                                      </option>
+                                      <option data-countryCode="DZ" value="213">
+                                        Algeria (+213)
+                                
+                                
+                                <input type="tel" class="form-control input-outline-bottom ms-3 col-md-2" id="phone" placeholder="Phone Number">
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="form-group col-md-3 mt-2">
+                            <label for="email"style="color: white;">Email</label>
+                            <input type="email" class="form-control input-outline-bottom" id="email" placeholder="Email">
+                        </div>
+                    </div>
+    
+                    <div class="form-group mt-2 col-md-3">
+                        <label for="message" style="color: white;">Message</label>
+                        <textarea class="form-control input-outline-bottom" id="message" rows="" cols="40" placeholder="Message"></textarea>
+                    </div>
+                    
+    
+                    <button type="submit" class="btn rounded mt-3" style="background-color: black; color: white;">Submit</button> -->
+
+                    <!-- <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.1652728885833!2d77.07076567603019!3d28.594818285791483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b30bc00002d%3A0xa62ec5d90f90ca90!2sCar%20Shoppers!5e0!3m2!1sen!2sin!4v1713166417165!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </form> -->
+<!--                 
+            </div>
+        </div>                      
+    </div> -->
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="text-center text-lg-start text-muted footer" style="background: url(Images/discussion.png);">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+
+            <!-- Left -->
+
+            <!-- Right -->
+            <div class="d-flex justify-content-center container nav-link">
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github ftr-icon"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="footer pt-4 pb-5">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <a class="navbar-brand w-25 ms-auto" href="index.html">
+                            <img src="image/logo.jpg" alt="" class="img-responsive  mr-auto logo-img"
+                                style="background: none !important; max-width: 100%; min-width: 60%;">
+                        </a>
+                        <p class=" ms-0">
+                            We champion
+                            the extraordinary in every person.
+                            Our mission is not just to enhance your appearance but to empower, uplift, and celebrate the
+                            unique beauty
+                            within you. We believe that true beauty is not confined to external features; it radiates
+                            from confidence,
+                            kindness, and the authenticity that makes you, you.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Cars
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Audi</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Hyundai</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Tata</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Mercedes</a>
+                        </p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="T&C.html" class="text-reset nav-link">Terms and conditions</a>
+                        </p>
+                        <p>
+                            <a href="Refund & return.html" class="text-reset nav-link">Reutrn and Refund</a>
+                        </p>
+                        <p>
+                            <a href="Shipping.html" class="text-reset nav-link">Shipping Policy</a>
+                        </p>
+                        <p>
+                            <a href="shop.html" class="text-reset nav-link">Shop Now</a>
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i>
+                          D-84 ambedkar Colony, Chattarpur, <br>  New Delhi 110074</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <a href="mailto:abhishekdogra2018@gmail.com">
+                                abhishekdogra2018@gmail.com
+                            </a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> <a href="tel:9910078345">9910078345</a></p>
+                        <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center copyright p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="#" style="font-style: italic;">Car Shopper</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

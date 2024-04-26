@@ -1,0 +1,43 @@
+.Navbar{
+    display: Flex;
+    margin-top: 20px; 
+}
+.Navbar a {
+    display: flex;
+    color: black;
+    padding: 10px 36px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.Navbar a:hover{
+    background-color: blue;
+    color: white;
+}
+/* #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+} */
+.head{
+    font-weight: bolder;
+    font-size: large;
+}
+.carcard{
+    padding: 12px 45px;
+
+}
+.container.search-icon{
+    margin-left: 280px;
+}
+
+@media screen and (max-width: 500px){
+    .container.search-icon{
+       margin-left: 50px;
+    }     
+    
+}
+div.card-group{
+    width: 60%;
+    margin-bottom: 20%;
+  
+}
